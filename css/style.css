@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.btn-j {
+    width: 150px;
+    margin: auto;
+}
+
+.btn-j button {
+    position: fixed;
+    padding: 18px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-j button:hover {
+    background-color: rgb(218, 64, 64);
+}
+
+.fundo-janela {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(16, 16, 16, .5);
+}
+
+.body-janela {
+    position: absolute;
+    height: 300px;
+    width: 420px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.header {
+    padding: 10px;
+    background-color: #347355;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header h2 {
+    color: white;
+}
+
+.body {
+    padding: 14px;
+
+}
+
+.body p {
+    line-height: 1.6em;
+}
+
+.btn-f {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-f button {
+    width: 140px;
+    padding: 12px;
+    background-color: #347355;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-f button:hover {
+    background-color: #3d8663;
+}
+
+.fundo-janela {
+    animation: fade ease 1.4s;
+}
+ 
+@keyframes fade {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+}
