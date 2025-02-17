@@ -1,11 +1,12 @@
-let fundoJan = document.getElementById('fundo')
-let janelModal = document.getElementById('jan')
+let fundoJanela = document.getElementById('fundo')
+let janelaModal = document.getElementById('jan')
+
 function abrirJanela() {
-    fundoJan.style.display = 'block'
-    janelModal.style.display = 'block'
+    fundoJanela.style.display = 'block'
+    janelaModal.style.display = 'block'
 }
 
 function fecharJanela() {
-    fundoJan.style.display = 'none'
-    janelModal.style.display = 'none'
+    fundoJanela.style.display = 'none'
+    janelaModal.style.display = 'none'
 }
