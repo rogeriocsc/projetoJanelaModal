@@ -1,0 +1,7 @@
+/* Celular: de 600px até 768px */
+@media screen and (max-width: 768px) {
+    section.janela {
+	    width: 75%;
+        height: auto;
+    }
+}

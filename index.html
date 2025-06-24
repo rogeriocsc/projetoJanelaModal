@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Janela Modal</title>
 </head>
 <body>
     <main>
-        <h2>Janela Modal</h2>
-        <button class="btn-j" onclick="abrirJanela()">Abrir</button>
-        <section class="fundo" id="fundo"></section>
+        <section class="btn-janela">
+            <button onclick="abrirJanela()">Abrir Janela</button>
+        </section>
+        <section class="fundo-janela" id="janel"></section>
         <section class="janela" id="jan">
             <div class="header">
-                <h2>Janela</h2>
+                <button onclick="fecharJanela()">Fechar</button>
+                <h2>Marketing</h2>
             </div>
-            <div class="conteudo">
+            <div class="body">
                 <p>
                     O marketing desempenha um papel crucial na estratégia empresarial contemporânea, funcionando como a ponte entre as organizações e seus consumidores. 
                 </p>
             </div>
-            <div class="rodape">
-                <button onclick="fecharJanela()">Fechar</button>
+            <div class="footer">
+                <h2>Janela Modal</h2>
             </div>
         </section>
     </main>
